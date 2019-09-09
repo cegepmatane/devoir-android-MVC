@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ca.qc.cgmatane.bibliothque">
+    package="ca.qc.cgmatane.bibliotheque">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".vue.ModifierLivre"></activity>
-        <activity android:name=".vue.AjouterLivre" />
-        <activity android:name=".vue.Bibliotheque">
+        <activity android:name="ca.qc.cgmatane.bibliotheque.vue.ModifierLivre"></activity>
+        <activity android:name="ca.qc.cgmatane.bibliotheque.vue.AjouterLivre" />
+        <activity android:name="ca.qc.cgmatane.bibliotheque.vue.Bibliotheque">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
